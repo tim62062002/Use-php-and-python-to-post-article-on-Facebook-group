@@ -40,7 +40,7 @@ The main point of develop a website is you need to ask user to insert someyhing 
 
 Here is a quick example of posting some words in php.
 
-<form action="Post.php" method="post">
+form action="Post.php" method="post"
 
 #Step 2 select those content from your database and put them in to argument(See Article.php)
 
