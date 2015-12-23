@@ -40,13 +40,15 @@ The main point of develop a website is you need to ask user to insert someyhing 
 
 Here is a quick example of posting some words in php.
 
-<form action="Post.php" method="post">
-    Article Url: <input type="text" name="Article_Url" /></br>
-    Article Title: <input type="text" name="Article_Title" /></br>
-    Article Comment:<input type="text" name="Article_Comment"></br>
-<input type = "submit" value = "Send"/>
-</form>
+"<form action="Post.php" method="post">"
+    "Article Url: <input type="text" name="Article_Url" /></br>"
+    "Article Title: <input type="text" name="Article_Title" /></br>"
+    "Article Comment:<input type="text" name="Article_Comment"></br>"
+"<input type = "submit" value = "Send"/>"
+"</form>"
 
 #Step 2 select those content from your database and put them in to argument(See Article.php)
+
+My control flow will be "Use php to select content from DB" - > "Put those content as argument and send to my Python script to deal my posting facebook"
 
 #Step 3 use python to post content on facebook group(SeeFB_Post.py)
